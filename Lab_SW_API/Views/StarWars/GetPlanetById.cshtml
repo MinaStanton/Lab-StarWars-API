@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "GetPlanetById";
+}
+
+<h1>Get Planet By Id</h1>
+
+@model Planet
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Rotation Period</th>
+        <th>Orbital Period</th>
+        <th>Climate</th>
+        <th>Gravity</th>
+        <th>Population</th>
+        <th>Surface Water</th>
+
+    </tr>
+    <tr>
+        <td>@Model.name</td>
+        <td>@Model.rotation_period</td>
+        <td>@Model.orbital_period</td>
+        <td>@Model.climate</td>
+        <td>@Model.gravity</td>
+        <td>@Model.population</td>
+        <td>@Model.surface_water</td>
+    </tr>
+</table>
